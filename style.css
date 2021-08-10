@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*
+
+#main{
+    background-color:#595260 ;
+    width:200px ;
+    height:100% ;
+    position: fixed;
+    left: -200px;
+    transition: all 400ms linear;
+    list-style:none;
+}
+
+#main ul li{
+    color: white;
+    list-style: none;
+    padding: 15px 9px;
+    border-bottom: 1px solid white;
+
+
+}
+
+#main .toggle{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+}
+
+#main .toggle span{
+    width: 30px;
+    height: 5px;
+    background-color:white;
+    display: block;
+    margin: 5px 0px;
+}
+
+body{
+    background-image: url(images/dv.jpg);
+    background-size: cover;
+    
+}
+
+#main.active{
+    left: 0px;
+}
+#main ul li:hover{
+    background-color:#053742;
+}
+
+#main ul li a{
+    color: honeydew;
+    
+}
